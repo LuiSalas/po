@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2545CD661DBEC8650045C1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545CD651DBEC8650045C1BE /* AppDelegate.swift */; };
+		2545CD681DBEC8650045C1BE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545CD671DBEC8650045C1BE /* MasterViewController.swift */; };
+		2545CD6A1DBEC8650045C1BE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545CD691DBEC8650045C1BE /* DetailViewController.swift */; };
+		2545CD6D1DBEC8650045C1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2545CD6B1DBEC8650045C1BE /* Main.storyboard */; };
+		2545CD6F1DBEC8650045C1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2545CD6E1DBEC8650045C1BE /* Assets.xcassets */; };
+		2545CD721DBEC8650045C1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2545CD701DBEC8650045C1BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2545CD621DBEC8650045C1BE /* FlowerDeatil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerDeatil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2545CD651DBEC8650045C1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2545CD671DBEC8650045C1BE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2545CD691DBEC8650045C1BE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2545CD6C1DBEC8650045C1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2545CD6E1DBEC8650045C1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2545CD711DBEC8650045C1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2545CD731DBEC8650045C1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2545CD5F1DBEC8650045C1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2545CD591DBEC8650045C1BE = {
+			isa = PBXGroup;
+			children = (
+				2545CD641DBEC8650045C1BE /* FlowerDeatil */,
+				2545CD631DBEC8650045C1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2545CD631DBEC8650045C1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2545CD621DBEC8650045C1BE /* FlowerDeatil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2545CD641DBEC8650045C1BE /* FlowerDeatil */ = {
+			isa = PBXGroup;
+			children = (
+				2545CD651DBEC8650045C1BE /* AppDelegate.swift */,
+				2545CD671DBEC8650045C1BE /* MasterViewController.swift */,
+				2545CD691DBEC8650045C1BE /* DetailViewController.swift */,
+				2545CD6B1DBEC8650045C1BE /* Main.storyboard */,
+				2545CD6E1DBEC8650045C1BE /* Assets.xcassets */,
+				2545CD701DBEC8650045C1BE /* LaunchScreen.storyboard */,
+				2545CD731DBEC8650045C1BE /* Info.plist */,
+			);
+			path = FlowerDeatil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2545CD611DBEC8650045C1BE /* FlowerDeatil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2545CD761DBEC8650045C1BE /* Build configuration list for PBXNativeTarget "FlowerDeatil" */;
+			buildPhases = (
+				2545CD5E1DBEC8650045C1BE /* Sources */,
+				2545CD5F1DBEC8650045C1BE /* Frameworks */,
+				2545CD601DBEC8650045C1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerDeatil;
+			productName = FlowerDeatil;
+			productReference = 2545CD621DBEC8650045C1BE /* FlowerDeatil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2545CD5A1DBEC8650045C1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Luis Salas Rodriguez";
+				TargetAttributes = {
+					2545CD611DBEC8650045C1BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5KDVCLQT2T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2545CD5D1DBEC8650045C1BE /* Build configuration list for PBXProject "FlowerDeatil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2545CD591DBEC8650045C1BE;
+			productRefGroup = 2545CD631DBEC8650045C1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2545CD611DBEC8650045C1BE /* FlowerDeatil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2545CD601DBEC8650045C1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2545CD721DBEC8650045C1BE /* LaunchScreen.storyboard in Resources */,
+				2545CD6F1DBEC8650045C1BE /* Assets.xcassets in Resources */,
+				2545CD6D1DBEC8650045C1BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2545CD5E1DBEC8650045C1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2545CD6A1DBEC8650045C1BE /* DetailViewController.swift in Sources */,
+				2545CD681DBEC8650045C1BE /* MasterViewController.swift in Sources */,
+				2545CD661DBEC8650045C1BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2545CD6B1DBEC8650045C1BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2545CD6C1DBEC8650045C1BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2545CD701DBEC8650045C1BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2545CD711DBEC8650045C1BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2545CD741DBEC8650045C1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2545CD751DBEC8650045C1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2545CD771DBEC8650045C1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KDVCLQT2T;
+				INFOPLIST_FILE = FlowerDeatil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.FlowerDeatil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2545CD781DBEC8650045C1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KDVCLQT2T;
+				INFOPLIST_FILE = FlowerDeatil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.FlowerDeatil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2545CD5D1DBEC8650045C1BE /* Build configuration list for PBXProject "FlowerDeatil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2545CD741DBEC8650045C1BE /* Debug */,
+				2545CD751DBEC8650045C1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2545CD761DBEC8650045C1BE /* Build configuration list for PBXNativeTarget "FlowerDeatil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2545CD771DBEC8650045C1BE /* Debug */,
+				2545CD781DBEC8650045C1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2545CD5A1DBEC8650045C1BE /* Project object */;
+}
